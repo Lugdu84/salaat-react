@@ -1,0 +1,26 @@
+.card-salaat {
+  padding: 20px;
+  background-color: beige;
+  text-align: start;
+  min-height: 250px;
+  max-width: 300px;
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+}
+
+.container {
+  text-align: center;
+}
+
+.row-salaat {
+  margin: 20px;
+  position: relative;
+
+  .times {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+  }
+}
